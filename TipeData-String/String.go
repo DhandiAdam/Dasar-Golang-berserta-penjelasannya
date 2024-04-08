@@ -8,9 +8,8 @@ func main() {
 	//Mendeklarasi variabel dengan menggunakan := tanpa harus membuat var nama string
 	Nama_Belakang := "Adam"
 	//Mendeklarasi variabel function tanpa harus mendefinisikan func nama_variabel
-	Nama_Lengkap := func(namaDepan, NamaBelakang string) string {
-		//Membalikan nilai namaDepan dan NamaBelakang yang sudah didefinisikan parameter
-		return namaDepan + " " + NamaBelakang
+	Nama_Lengkap := func(NamaDepan, NamaBelakang string) string {
+		return NamaDepan + " " + NamaBelakang
 	}
 	fmt.Println("Nama Depan = ", nama)
 	fmt.Println("Nama Belakang = ", Nama_Belakang)
